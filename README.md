@@ -1,6 +1,6 @@
 # QCMed-Project-
 
-# Student Registration – Full Stack Application
+# Student Registration 
 
 ## Description
 Cette application permet d’enregistrer des étudiants sur une plateforme de cours en ligne.
@@ -28,3 +28,8 @@ Les données sont stockées localement dans un fichier JSON.
 cd backend
 npm install
 node index.js
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
