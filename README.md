@@ -28,6 +28,7 @@ Les données sont stockées localement dans un fichier JSON.
 cd backend
 npm install
 node index.js
+```
 ### Frontend
 ```bash
 cd frontend
