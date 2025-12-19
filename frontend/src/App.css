@@ -1,0 +1,101 @@
+/* Body : fond gris clair et centré */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e0f7fa; /* fond clair bleu */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff; /* fond blanc pour contraste */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Titre */
+h1 {
+  text-align: center;
+  color: #00796b; /* vert foncé */
+  margin-bottom: 30px;
+}
+
+/* Formulaire : espacement et alignement */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Champs et select */
+input, select {
+  flex: 1 1 48%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #b2dfdb; /* bordure bleu clair */
+  background-color: #f0f0f0; /* fond gris clair */
+  color: #333333; /* texte gris foncé / noir */
+}
+
+/* Champ expérience (plein largeur) */
+input[placeholder="Expérience préalable"] {
+  flex: 1 1 100%;
+}
+
+/* Boutons */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #00796b; /* vert foncé */
+  color: white;
+  cursor: pointer;
+  flex: 1 1 48%;
+}
+
+button:hover {
+  background-color: #004d40; /* plus foncé au hover */
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #b2dfdb;
+  text-align: left;
+  color: #333333; /* texte noir/gris foncé */
+}
+
+th {
+  background-color: #004d40; /* vert foncé */
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #e0f2f1; /* bleu clair pour alternance */
+}
+
+/* Select tri */
+select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #b2dfdb;
+  background-color: #f0f0f0;
+  color: #333333;
+}
