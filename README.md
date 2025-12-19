@@ -1,5 +1,5 @@
 # QCMed-Project-
-test project 
+
 # Student Registration – Full Stack Application
 
 ## Description
